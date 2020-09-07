@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+.jumbotron {
+    background-image:url("../Images/bitcoin-159.jpg");
+    height:700px;
+    background-size: cover;
+  }
+  .jumbotron .container {
+    position:relative;
+    top:50px;
+  }
+
+  .heading{
+      color: #87431d;
+      font-weight: bold;
+      text-shadow: 5px 5px 10px #7c7029;
+}
+
+.heading-text{
+    color: #3207f1;
+    font-weight: bold;
+}
+
+  .whatsapp-icon{
+      margin-left: 800px;
+  }
+
+  .fab{
+      color: rgb(12, 80, 226);
+      margin: 10px;
+      font-size: 30px;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .jumbotron {
+        background-image:url("../Images/bitcoin-159.jpg");
+        height:500px;
+        background-size: cover;
+      }
+      .jumbotron .container {
+        position:relative;
+        top:50px;
+      }
+      .heading-text{
+          display: none;
+      }
+.history-2{
+    padding: 10px;
+}
+
+.h2-allign{
+    text-align: center;
+}
+
+.whatsapp-icon{
+    margin-left: 0 !important;
+}
+
+.footer{
+    margin-top: 0 !important;
+}
+
+#offer{
+    margin-bottom: 0 !important;
+}
+.body{
+    margin-bottom: 0 !important;
+}
+
+  }
