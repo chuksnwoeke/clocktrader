@@ -22,6 +22,14 @@ body{
     color: #3207f1;
     font-weight: bold;
 }
+h6{
+    margin-top:20px ;
+}
+
+.border-img{
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 10px #0c0c0c;;
+}
 
   .whatsapp-icon{
       margin-left: 800px;
@@ -32,10 +40,13 @@ body{
       margin: 10px;
       font-size: 30px;
   }
+  .reg{
+      margin-top: 20px;
+  }
 
 
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 500px) {
     .jumbotron {
         background-image:url("../Images/bitcoin-159.jpg");
         height:500px;
@@ -48,6 +59,13 @@ body{
       .heading-text{
           display: none;
       }
+      .heading-div {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .hand{
+        margin-bottom: 10px;
+    }
 .history-2{
     padding: 10px;
 }
@@ -70,5 +88,16 @@ body{
 .body{
     margin-bottom: 0 !important;
 }
+.reg{
+    padding: 10px;
+    text-align: center;
+}
 
+.contact-us{
+    margin: 0;
+}
+
+.connect{
+    margin-top: 10px;
+}
   }
